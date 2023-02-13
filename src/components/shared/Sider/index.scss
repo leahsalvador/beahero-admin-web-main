@@ -1,0 +1,39 @@
+.sider-container {
+  #components-layout-demo-custom-trigger .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+
+  #components-layout-demo-custom-trigger .trigger:hover {
+    color: #1890ff;
+  }
+
+  .logo {
+    height: 64px;
+    width: 100%;
+    // width: 65px;
+    // background-image: url('../../../../assets/logo/logo.png');
+    background-color: #fa3f63;
+    background-size: cover;
+    background-position: center;
+
+    // to removed
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  // .ant-menu-dark .ant-menu-item-selected .ant-menu-item-icon,
+  // .ant-menu-dark .ant-menu-item-selected
+
+  .ant-menu.ant-menu-dark .ant-menu-item-selected {
+    background-color: transparent;
+
+    .anticon {
+      color: #FA3F63 !important;
+    }
+  }
+}

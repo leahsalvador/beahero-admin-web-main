@@ -1,0 +1,27 @@
+div.footer {
+  background: #0095c9;
+  padding: 1rem 5%;
+  transition: 0.5s ease-in-out;
+
+  .footer-container {
+    max-width: 75rem;
+    margin: auto !important;
+
+    * {
+      color: #fff;
+    }
+
+    a:hover {
+      color: #222;
+    }
+
+    a svg {
+      font-size: 2rem;
+    }
+
+    a:hover svg {
+      color: green !important;
+      background: green;
+    }
+  }
+}

@@ -1,0 +1,115 @@
+.main-header-container {
+  background: white !important;
+  display: flex !important;
+  justify-content: flex-end !important;
+  // text-align: right;
+  div {
+    cursor: pointer;
+    .title {
+      border: 2px solid #0f5e44;
+      color: #0f5e44;
+      font-weight: 500;
+      margin: 0;
+      padding: 10px;
+      border-radius: 8px;
+    }
+  }
+
+  .options {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    img {
+      height: 40px;
+      width: 40px;
+      border-radius: 20px;
+    }
+
+    h4 {
+      font-size: 16px;
+      margin: 0 10px;
+      opacity: 0.8;
+    }
+  }
+
+  .header-logo {
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      color: #058728;
+      font-weight: bold;
+      margin-left: 10px;
+      font-size: 13px;
+    }
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .main-header-container {
+    .options {
+      display: none;
+    }
+    .header-logo {
+      display: flex !important;
+    }
+    justify-content: center !important;
+  }
+}
+
+//
+
+.childMenuIcon {
+  .anticon {
+    color: black;
+  }
+}
+
+.site-layout-background {
+  .ant-card-body {
+    padding: 5px;
+  }
+}
+
+.card-menu {
+  .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal)
+    .ant-menu-item-selected {
+    background-color: transparent;
+  }
+
+  .ant-menu.ant-menu-dark .ant-menu-item-selected {
+    .anticon {
+      color: #fa3f63 !important;
+    }
+    a {
+      color: #fa3f63 !important;
+    }
+  }
+}
+
+.ant-layout-content {
+  .ant-btn-primary {
+    background-color: #fd2d55;
+    outline: 0;
+    border: none;
+    height: 40;
+    border-radius: 6;
+
+    &:hover {
+      background-color: #fd0d3d;
+    }
+  }
+
+  .ant-picker {
+    border: none;
+  }
+
+  .card-filter {
+    .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+      border: none;
+    }
+  }
+}

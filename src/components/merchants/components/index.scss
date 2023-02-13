@@ -1,0 +1,31 @@
+.customer-container {
+  background-color: white;
+  margin: 20px;
+
+  .table-index-image {
+    height: 140px;
+    width: 140px;
+    border-radius: 20px;
+    object-fit: cover;
+
+    text-align: center;
+    line-height: 140px
+  }
+}
+
+.page-header {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.ant-table {
+  overflow: auto;
+}
+
+.form-modal {
+  .ant-form-item {
+    margin-bottom: 10px;
+  }
+}
